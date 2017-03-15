@@ -73,17 +73,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smily" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTK-MV-OkM">
+                                <rect key="frame" x="127" y="415" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear: 2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVA-UV-YPg">
+                                <rect key="frame" x="129" y="456" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="7GC-75-6SA" firstAttribute="centerX" secondItem="82t-lt-sog" secondAttribute="centerX" id="0tm-TF-Ois"/>
+                            <constraint firstItem="VTK-MV-OkM" firstAttribute="top" secondItem="7GC-75-6SA" secondAttribute="bottom" constant="21" id="9Kp-au-pAi"/>
                             <constraint firstItem="7GC-75-6SA" firstAttribute="top" secondItem="nzT-jF-l3o" secondAttribute="bottom" constant="30" id="ADs-1a-pns"/>
+                            <constraint firstItem="cVA-UV-YPg" firstAttribute="top" secondItem="VTK-MV-OkM" secondAttribute="bottom" constant="20" id="NEY-La-hi8"/>
+                            <constraint firstItem="VTK-MV-OkM" firstAttribute="centerX" secondItem="82t-lt-sog" secondAttribute="centerX" id="eEb-xE-1hW"/>
                             <constraint firstItem="7GC-75-6SA" firstAttribute="centerX" secondItem="82t-lt-sog" secondAttribute="centerX" id="fZM-q1-0WD"/>
                             <constraint firstItem="nzT-jF-l3o" firstAttribute="top" secondItem="yiW-IJ-aAf" secondAttribute="bottom" constant="40" id="lQS-Aw-cE6"/>
                             <constraint firstItem="nzT-jF-l3o" firstAttribute="centerX" secondItem="82t-lt-sog" secondAttribute="centerX" id="mas-ED-u4S"/>
+                            <constraint firstItem="cVA-UV-YPg" firstAttribute="centerX" secondItem="82t-lt-sog" secondAttribute="centerX" id="vAH-Hp-Lqy"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthYearLabel" destination="cVA-UV-YPg" id="5l6-TO-frU"/>
+                        <outlet property="catgoryLabel" destination="VTK-MV-OkM" id="t5K-Vp-BIQ"/>
                         <outlet property="definitionLabel" destination="7GC-75-6SA" id="dg1-fa-k6D"/>
                         <outlet property="emojiLabel" destination="nzT-jF-l3o" id="kl5-Yz-QN5"/>
                     </connections>
