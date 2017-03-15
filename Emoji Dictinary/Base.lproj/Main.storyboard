@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4ag-d7-g9Q">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <sections/>
                             </tableView>
@@ -30,13 +30,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="4ag-d7-g9Q" secondAttribute="trailing" id="Bzi-ip-S61"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ag-d7-g9Q" secondAttribute="bottom" id="SD9-oW-KbX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ag-d7-g9Q" secondAttribute="bottom" constant="64" id="SD9-oW-KbX"/>
                             <constraint firstItem="4ag-d7-g9Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VRz-FV-plU"/>
                             <constraint firstAttribute="trailing" secondItem="4ag-d7-g9Q" secondAttribute="trailing" id="YqR-j9-QDQ"/>
-                            <constraint firstItem="4ag-d7-g9Q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Zhz-Wx-hzk"/>
-                            <constraint firstItem="4ag-d7-g9Q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fjL-kW-XqE"/>
+                            <constraint firstItem="4ag-d7-g9Q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-64" id="Zhz-Wx-hzk"/>
+                            <constraint firstItem="4ag-d7-g9Q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-64" id="fjL-kW-XqE"/>
                             <constraint firstItem="4ag-d7-g9Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gcd-nR-cyR"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ag-d7-g9Q" secondAttribute="bottom" id="ii4-zf-huG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ag-d7-g9Q" secondAttribute="bottom" constant="64" id="ii4-zf-huG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eCX-3B-uVf"/>
@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="972" y="37.331334332833585"/>
         </scene>
-        <!--View Controller-->
+        <!--Definition View Controller-->
         <scene sceneID="VK0-Wc-vnw">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bes-lF-wQy" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bes-lF-wQy" customClass="DefinitionViewController" customModule="Emoji_Dictinary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yiW-IJ-aAf"/>
                         <viewControllerLayoutGuide type="bottom" id="tAb-tX-0jb"/>
@@ -62,7 +62,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GC-75-6SA">
-                                <rect key="frame" x="103" y="329" width="169" height="21"/>
+                                <rect key="frame" x="103" y="373" width="169" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
