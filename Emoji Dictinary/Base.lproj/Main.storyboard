@@ -68,7 +68,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzT-jF-l3o">
-                                <rect key="frame" x="78" y="66" width="218" height="239"/>
+                                <rect key="frame" x="86" y="103" width="218" height="239"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="200"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -83,6 +83,10 @@
                             <constraint firstItem="nzT-jF-l3o" firstAttribute="centerX" secondItem="82t-lt-sog" secondAttribute="centerX" id="mas-ED-u4S"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="definitionLabel" destination="7GC-75-6SA" id="dg1-fa-k6D"/>
+                        <outlet property="emojiLabel" destination="nzT-jF-l3o" id="kl5-Yz-QN5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qrD-Of-So5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
